@@ -53,7 +53,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/vishalpandeynkp1/NOBITA-EXTRA-PLUGIN",
+    "https://github.com/GARIB-CODERS/King",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -70,12 +70,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002223516578"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002060224175"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6972508083").split())
+    map(int, getenv("OWNER_ID", "7445883361").split())
 )  # Input type must be interger
 
 
@@ -114,10 +114,10 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Nobita_All_Bot"
+    "SUPPORT_CHANNEL", "https://t.me/PURVI_SUPPORT"
 )  # Example:- https://t.me/VIP_CREATORS
 SUPPORT_GROUP = getenv(
-    "BOYS_STATUS_GROUP", "https://t.me/NOBITA_SUPPORT"
+    "BOYS_STATUS_GROUP", "https://t.me/+QExD9mtKnz5hNjY1"
 )  # Example:- https://t.me/TG_FRIENDSS
 
 SUPPORT_CHAT = getenv(
